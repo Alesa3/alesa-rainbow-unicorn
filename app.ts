@@ -10,10 +10,10 @@ const o: { name: string; age: number; isOldEnoughToDrive: boolean } = {
 
 console.log(o);
 
-function greeter(input: string): string {
+function input(input: string): string {
     return `Hi ${input}`;
 }
 
 for (const animal of animals) {
-    console.log(greeter(animal));
+    console.log(input(animal));
 }
